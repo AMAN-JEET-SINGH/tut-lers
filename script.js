@@ -1,7 +1,7 @@
 let toggleBtn = document.getElementById('toggle-btn');
 let body = document.body;
 let darkMode = localStorage.getItem('dark-mode');
-/*
+
 const enableDarkMode = () =>{
    toggleBtn.classList.replace('fa-sun', 'fa-moon');
    body.classList.add('dark');
@@ -26,7 +26,7 @@ toggleBtn.onclick = (e) =>{
       disableDarkMode();
    }
 }
-*/
+
 let profile = document.querySelector('.header .flex .profile');
 
 document.querySelector('#user-btn').onclick = () =>{
